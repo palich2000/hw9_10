@@ -23,7 +23,7 @@ class MainActivity : Activity() {
         buttonSub.setOnClickListener {
 
             if (value == 0) {
-                showToast("Value must be great then 0")
+                showToast("Value must be greater than zero")
             } else {
                 value--
                 toText(value.toString())
